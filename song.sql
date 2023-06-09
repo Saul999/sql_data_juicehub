@@ -5,6 +5,18 @@ create table song (
 	era TEXT,
 	additional_info TEXT
 );
+
+CREATE TABLE songs (
+  era VARCHAR(100),
+  name VARCHAR(100),
+  notes VARCHAR(200),
+  date_leaked DATE,
+  type VARCHAR(100),
+  currently_available BOOLEAN,
+  is_circulating BOOLEAN,
+  links VARCHAR(200)
+);
+
 insert into song (name, date, producer, era, additional_info) values ('Lesya', '6/12/2022', 'Lesya Tolchard', 'Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.', 'Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy. Integer non velit. Donec diam neque, vestibulum eget, vulputate ut, ultrices vel, augue.');
 insert into song (name, date, producer, era, additional_info) values ('Dell', '8/6/2022', 'Dell Longcake', 'Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.', 'Etiam faucibus cursus urna. Ut tellus. Nulla ut erat id mauris vulputate elementum.');
 insert into song (name, date, producer, era, additional_info) values ('Katerina', '3/23/2023', 'Katerina Rees', 'Aenean sit amet justo.', 'Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio. Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.');
