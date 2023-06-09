@@ -12,8 +12,8 @@ CREATE TABLE songs (
   notes VARCHAR(200),
   date_leaked DATE,
   type VARCHAR(100),
-  currently_available VARCHAR(10),
-  is_circulating VARCHAR(10),
+  currently_available VARCHAR(20),
+  is_circulating VARCHAR(20),
   links VARCHAR(200)
 );
 
